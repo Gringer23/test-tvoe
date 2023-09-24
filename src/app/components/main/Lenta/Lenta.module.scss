@@ -1,0 +1,86 @@
+.Lenta{
+  background: #FFFFFF;
+  border-radius: 12px;
+  width: 70%;
+  height: min-content;
+  margin: 0 0 0 15px;
+
+  h1{
+    padding: 32px 32px 0 32px;
+  }
+
+  .news{
+    margin: 25px 0 25px 0;
+    padding: 0 32px;
+    display: flex;
+    flex-direction: column;
+
+    .newsItem{
+      padding-top: 25px;
+      display: flex;
+      align-items: center;
+
+      .newsDesc{
+        display: block;
+        margin-left: 15px;
+
+        p{
+          margin-bottom: 5px;
+        }
+
+        .time{
+          margin: 10px 10px 0 0;
+          font-size: 14px;
+          font-weight: 400;
+          line-height: 16px;
+          letter-spacing: 0;
+          color: #838383;
+        }
+
+        .type{
+          padding: 4px 8px 4px 8px;
+          border-radius: 20px;
+          background-color: #fa5902;
+          color: #FFFFFF;
+          font-size: 12px;
+        }
+      }
+    }
+  }
+
+  .runText{
+    height: 40px;
+    background: #343436;
+    border-bottom-right-radius: 12px;
+    border-bottom-left-radius: 12px;
+    overflow: hidden;
+  }
+  .runText div{
+    display: flex;
+    width: 200%;
+    color: #FFFFFF;
+    text-align: center;
+    animation: text 5s linear infinite;
+    >div {
+      white-space: nowrap;
+      width: 100%;
+      display: flex;
+      align-items: center;
+      padding: 10px;
+
+      >span{
+        margin-right: 10px;
+      }
+    }
+
+  }
+  @keyframes text {
+    0%{
+      transform: translateX(0%);
+    }
+
+    100%{
+      transform: translateX(-25%);
+    }
+  }
+}

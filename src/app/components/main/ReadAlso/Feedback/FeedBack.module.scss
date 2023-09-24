@@ -1,0 +1,15 @@
+.FeedBack{
+  display: flex;
+  align-items: center;
+  .reaction{
+    display: flex;
+    align-items: flex-end;
+    margin: 10px 15px 10px 0;
+    font-size: 12px;
+
+    >div{
+      padding-left: 3px;
+      cursor: pointer;
+    }
+  }
+}

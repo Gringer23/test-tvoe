@@ -1,0 +1,14 @@
+.Header{
+  padding: 25px;
+  display: grid;
+  grid-template-columns: 1fr 6fr 1fr;
+  align-items: center;
+  background-color: #FFFFFF;
+
+  h1{
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 34px;
+    letter-spacing: 0;
+  }
+}

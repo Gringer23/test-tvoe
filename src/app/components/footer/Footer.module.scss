@@ -1,0 +1,81 @@
+.Footer{
+  padding: 34px;
+  background-color: #333333;
+  color: #FFFFFF;
+  display: grid;
+  grid-template-columns: 1.5fr 3fr 1fr;
+
+  h1{
+    font-size: 44px;
+    font-weight: 400;
+    line-height: 54px;
+    letter-spacing: 0;
+    text-align: left;
+    margin-bottom: 15px;
+  }
+
+  p{
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14px;
+    letter-spacing: 0;
+    text-align: left;
+
+  }
+
+  .info{
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    >div{
+      >p{
+        cursor: pointer;
+        margin-bottom: 20px;
+        >a{
+          color: #fa5902;
+         text-decoration-line: underline;
+      }
+      }
+
+    }
+  }
+
+  .polytics{
+
+  }
+
+  .asking{
+    width: 30%;
+    white-space: break-spaces;
+    .socialLink{
+      display: flex;
+      align-items: center;
+      cursor: pointer;
+      >p{
+        margin-left: 10px;
+      }
+    }
+  }
+
+  .offerNews{
+    >button{
+      margin-top: 70px;
+      margin-left: 70px;
+      padding: 12px 16px 12px 16px;
+      background-color: #fa5902;
+      color: #FFFFFF;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      font-size: 14px;
+      font-weight: 600;
+      line-height: 16px;
+      letter-spacing: 0;
+      text-align: center;
+
+    }
+
+  }
+}
